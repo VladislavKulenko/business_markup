@@ -1,31 +1,51 @@
-@import url('https://fonts.cdnfonts.com/css/elronet-monospace');
+@import url('https://fonts.cdnfonts.com/css/graphik');
 
     .body{
         width: auto;
-        height: auto;
-        background-color: white;
-        background-image: url(img/BG.png);
-        background-size: cover;
+        height: 6000px;
+        background-color: #fff;
+        background-image: url(img/bgc.png);
         background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: top;
     }
 
-  .dekstop_menu{
+
+  .dekstop_menu {
     word-spacing: 41px;
-    padding-left: 15%;
+    padding-left: 12.5%;
     vertical-align: top;
-    font-size: 15px;
     font-size: 15px;
     line-height: 15px;
     letter-spacing: 0.2px;
   }
+  
+  .menu{
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    text-decoration: none;
+    }
+    .dekstop_menu a{
+        vertical-align:middle;
+    }
+
+    .social{
+        vertical-align:middle;
+        float: right;
+        padding: 0.1px;
+        margin-right: 50px;
+        margin-top: 20px;
+        
+    }
+
 
   .main{
     text-align: center;
-    font-family: 'elronet-monospace', sans-serif;
-  }
-  
-  a{
-    vertical-align:middle;
+    font-family: 'Graphik', sans-serif;
+    margin-top: 100px;
   }
   
   .main_text{
@@ -44,11 +64,8 @@
   }
 
 
-
-
-
   .text_h2{
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-size: 48px;
     line-height: 55px;
     letter-spacing: 0.2px;
@@ -61,14 +78,13 @@
     font-size: 28px;
     letter-spacing: 0.2px;
     color: #374754;
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
   }
 
   .features{
     text-align: center;
     margin-top: 550px;
   }
-
 
 
   .opentypes{
@@ -82,12 +98,12 @@
     vertical-align: top;
     line-height: 28px;
     text-align: center;
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
     color: #252B42;
   }
 
   .p_text2{
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
     color: #374754;
     line-height: 25px;
     font-size: 18px;
@@ -111,7 +127,6 @@
   }
 
 
-
 .action{
     float: left;
     margin-left: 85px;
@@ -120,7 +135,6 @@
 .third_in_ul{
     margin-left: 85px;
 }
-
 
 
 .list{
@@ -135,10 +149,9 @@
 }
 
 
-
 .organize{
     margin-top: 100px;
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
     float: left;
     margin-left: 85px;
 }
@@ -161,7 +174,7 @@
 .input{
 margin-top: 30px;
 display: block;
-font-family: 'elronet-monospace', sans-serif;
+font-family: 'Graphik', sans-serif;
 font-weight: 400;
 line-height: 1.5;
 background-color: #fff;
@@ -202,7 +215,7 @@ size: 100px;
 
 .p_text3{
     text-align:inherit;
-    font-family: 'elronet-monospace', sans-serif;
+    font-family: 'Graphik', sans-serif;
     line-height: 23px;
     font-size: 16px;
     color: #374754;
@@ -236,7 +249,7 @@ size: 100px;
 }
 
 .text_h2_1{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-size: 48px;
   line-height: 55px;
   letter-spacing: 0.2px;
@@ -249,7 +262,7 @@ size: 100px;
   font-size: 28px;
   letter-spacing: 0.2px;
   color: #fff;
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
 }
 
 .main_img_pricing{
@@ -310,7 +323,7 @@ margin-left: 60px;
 .input1{
 margin-top: 30px;
 display: block;
-font-family: 'elronet-monospace', sans-serif;
+font-family: 'Graphik', sans-serif;
 font-weight: 400;
 line-height: 2;
 background-color: #fff;
@@ -327,7 +340,7 @@ font-size: 16px;
 }
 
 .text_h5{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -355,7 +368,7 @@ font-size: 16px;
   vertical-align: top;
   line-height: 28px;
   text-align: center;
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   color: #252B42;
   margin-left: 70px;
 }
@@ -370,7 +383,6 @@ font-size: 16px;
 }
 
 
-
 .footer{
   margin-top: 100px;
   background-color: #252B42;
@@ -379,7 +391,7 @@ font-size: 16px;
 }
 
 .pages a{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   text-decoration: none;
   font-weight: 300;
   font-size: 15px;
@@ -402,6 +414,8 @@ font-size: 16px;
   list-style-type: none;
 }
 
+
+
 .footer_div{
   float: left;
   margin-top: 100px;
@@ -409,7 +423,7 @@ font-size: 16px;
 }
 
 .main_li{
-font-family: 'elronet-monospace', sans-serif;
+font-family: 'Graphik', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -420,7 +434,7 @@ text-align: start;
 }
 
 .tomothy_li{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 0.2px;
@@ -431,7 +445,7 @@ text-align: start;
 }
 
 .jane_li{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 0.2px;
@@ -453,7 +467,7 @@ margin-left: 180px;
 }
 
 .text_footer{
-  font-family: 'elronet-monospace', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 0.2px;
